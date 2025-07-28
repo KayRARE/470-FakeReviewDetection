@@ -6,7 +6,7 @@ matplotlib
 seaborn
 lightgbm
 
-Keras/TensorFlow sadece LSTM için eklenecek, şu an kullanılmıyor:
+Keras/TensorFlow sadece LSTM(2.yöntem) için eklenecek, şu an kullanılmıyor:
 tensorflow
 keras
 

@@ -21,7 +21,7 @@ Bu repoda, iki farklı veri seti üzerinde sahte inceleme tespiti için eğitile
   2. veri setiyle eğitilen modellerin test skorları ve confusion matrixlerini içerir.
 
 - **models/**  
-  Tüm eğitilmiş model ve vektörizer dosyaları (`.pkl`).
+  Tüm eğitilmiş model ve vektörizer dosyaları (.pkl).
 
 - **data/**  
   Kullanılan veri setlerinin orijinal/küçültülmüş halleri (dosya boyutunu düşürmek için küçük alt kümeler).
@@ -33,11 +33,12 @@ Bu repoda, iki farklı veri seti üzerinde sahte inceleme tespiti için eğitile
 3. Eğitim tamamlandıktan sonra modeller `models/` klasöründe kayıtlı olacak, test notebookları ile performans analizlerini görebilirsiniz.
 
 ## Notlar
-
+-models1st klasöründe denenmiş ama tamamlanmamış modeller bulunmaktadır bilgisayar donanımımdan kaynaklı olarak tam işlenmeyen modeller var.
+-models klasöründe bütün modellerin .pkl dosyaları bulunmaktadır.
 - Her model ve notebookun çıktıları kayıtlı şekilde bırakılmıştır.
 - Eğitim/test kodlarında kullanılan kod bloklarında, dışarıdan alınan kodlar/parametreler için yorum satırı ile referans eklenmiştir.
 - Proje, tamamen yerel olarak tekrar edilebilir yapıdadır.
-
+-LightGBM sonrasi modeller için confusion matrix direkt jupiter notebookta görünüyor LightGBM örnek olsun diye koyuldu.
 ## Referanslar
 - scikit-learn ve LightGBM dökümantasyonları:  
   https://scikit-learn.org/stable/, https://lightgbm.readthedocs.io/en/latest/
