@@ -4,6 +4,8 @@ Bu repoda, iki farklı veri seti üzerinde sahte inceleme tespiti için eğitile
 
 ## Dosya Açıklamaları
 
+Demo dosyaları her iki veri seti için de train_model_demo_dataset(i) şeklinde test dosyaları da testmodel(i)_demo şeklinde oluşturuldu
+
 - **train_model_FINAL_FIXED.ipynb**  
   1. veri seti ile eğitim yapılan ana Jupyter Notebook dosyasıdır.  
   - Naive Bayes, SVM, LightGBM, MLP modellerinin eğitim kodları ve çıktılarını içerir.
